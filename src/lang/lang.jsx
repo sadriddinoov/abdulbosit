@@ -2,8 +2,8 @@ export const lang = {
     uz: {
         translation : {
             header: {
-                tg: 'Telegram/',
-                inst: 'Instagram/',
+                tg: 'Telegram',
+                inst: 'Instagram',
                 facebook: 'Facebook',
                 konsultation: 'Bepul Konsultatsiya'
             },
@@ -60,8 +60,8 @@ export const lang = {
     ru: {
         translation : {
             header: {
-                tg: 'Телеграм/',
-                inst: 'Инстаграм/',
+                tg: 'Телеграм',
+                inst: 'Инстаграм',
                 facebook: 'Фейсбук',
                 konsultation: 'Бесплатная консультатция'
             },
@@ -118,8 +118,8 @@ export const lang = {
     eng: {
         translation : {
             header: {
-                tg: 'Telegram/',
-                inst: 'Instagram/',
+                tg: 'Telegram',
+                inst: 'Instagram',
                 facebook: 'Facebook',
                 konsultation: 'Free consultation'
             },

@@ -24,6 +24,7 @@ import consult from '../assets/consulting.png'
 import kids from '../assets/kids.png'
 import Tablet from '../components/tablet/tablet'
 import Footer from '../components/footer/footer'
+import logo from '../assets/logo.jpg'
 
 export default function Home() {
     
@@ -149,16 +150,16 @@ export default function Home() {
         </h3>
         
         <ul className="sponsor_list">
-        <img src={img1} alt="" />
-        <img src={img2} alt="" />
-        <img src={img3} alt="" />
-        <img src={img4} alt="" />
-        <img src={img5} alt="" />
-        <img src={img6} alt="" />
-        <img src={img7} alt="" />
-        <img src={img8} alt="" />
-        <img src={img9} alt="" />
-        <img src={img10} alt="" />
+        <img className='sponsor_img' src={img1} alt="" />
+        <img className='sponsor_img' src={img2} alt="" />
+        <img className='sponsor_img' src={img3} alt="" />
+        <img className='sponsor_img' src={img4} alt="" />
+        <img className='sponsor_img' src={img5} alt="" />
+        <img className='sponsor_img' src={img6} alt="" />
+        <img className='sponsor_img' src={img7} alt="" />
+        <img className='sponsor_img' src={img8} alt="" />
+        <img className='sponsor_img' src={img9} alt="" />
+        <img className='sponsor_img' src={img10} alt="" />
         </ul>
         </div>
         </div>
@@ -174,7 +175,7 @@ export default function Home() {
         <div className="works_wrap">
         <ul className="works_list">
         <a href='https://www.instagram.com/stories/highlights/17860091558967541/' target='_blank' className="works_item">
-        <img className='works_item-imgg' src={www} alt=""/>
+        <img className='works_item-imgg' src={logo} alt=""/>
         <div>
         <h3 className="works_item-heading">{t('business.sub1')}</h3>
         <p className="works_text">
@@ -184,7 +185,7 @@ export default function Home() {
         </a>
         
         <a href='https://www.instagram.com/stories/highlights/18105703528318480/' target='_blank' className="works_item">
-        <img className='works_item-imgg' src={consult} alt=""/>
+        <img className='works_item-imgg' src={logo} alt=""/>
         
         <div>
         <h3 className="works_item-heading">{t('business.sub2')}</h3>
@@ -195,7 +196,7 @@ export default function Home() {
         </a>
         
         <a href='https://www.instagram.com/stories/highlights/17934135908603888/' target='_blank' className="works_item">
-        <img className='works_item-imgg' src={kids} alt=""/>
+        <img className='works_item-imgg' src={logo} alt=""/>
         
         <div>
         <h3 className="works_item-heading">{t('business.sub3')}</h3>
