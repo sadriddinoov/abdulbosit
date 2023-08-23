@@ -19,9 +19,9 @@ import img8 from '../assets/image 8.png'
 import img9 from '../assets/image 9.png'
 import img10 from '../assets/image 10.png'
 import man from '../assets/man.png'
-import www from '../assets/www.png'
 import consult from '../assets/consulting.png'
 import kids from '../assets/kids.png'
+import karsu from '../assets/karsu.jpg'
 import Tablet from '../components/tablet/tablet'
 import Footer from '../components/footer/footer'
 import logo from '../assets/logo.jpg'
@@ -47,7 +47,9 @@ export default function Home() {
         </h2>
         </div>
         
+        <div className="main_wrap">
         <img src={mann} alt="" className="main_img" />
+        </div>
         </div>
         </div>
         </section>
@@ -175,7 +177,7 @@ export default function Home() {
         <div className="works_wrap">
         <ul className="works_list">
         <a href='https://www.instagram.com/stories/highlights/17860091558967541/' target='_blank' className="works_item">
-        <img className='works_item-imgg' src={logo} alt=""/>
+        <img className='works_item-imgg' src={karsu} alt=""/>
         <div>
         <h3 className="works_item-heading">{t('business.sub1')}</h3>
         <p className="works_text">
@@ -185,7 +187,7 @@ export default function Home() {
         </a>
         
         <a href='https://www.instagram.com/stories/highlights/18105703528318480/' target='_blank' className="works_item">
-        <img className='works_item-imgg' src={logo} alt=""/>
+        <img className='works_item-imgg' src={consult} alt=""/>
         
         <div>
         <h3 className="works_item-heading">{t('business.sub2')}</h3>
@@ -196,7 +198,7 @@ export default function Home() {
         </a>
         
         <a href='https://www.instagram.com/stories/highlights/17934135908603888/' target='_blank' className="works_item">
-        <img className='works_item-imgg' src={logo} alt=""/>
+        <img className='works_item-imgg' src={kids} alt=""/>
         
         <div>
         <h3 className="works_item-heading">{t('business.sub3')}</h3>

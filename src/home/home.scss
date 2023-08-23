@@ -396,7 +396,12 @@
         &_img {
             width: 240px;
             height: 310px;
-            margin-left: 50px;
+        }
+
+        &_wrap {
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
     
         &_heading {
